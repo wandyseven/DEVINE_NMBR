@@ -54,3 +54,22 @@ while (nombreDevine == false) {
 }
 
 console.log("connecté")
+
+//let saisie = document.getElementById(parseInt('input-saisie'));
+
+
+//const button = document.getElementById('b-game');
+
+ //let recupSaisie = saisie ;
+
+/**button.addEventListener('click',() => {
+
+
+
+
+});
+*/
+
+//console.log(recupSaisie);
+
+//document.getElementById("resultat").innerHTML= ;

@@ -19,16 +19,17 @@
                 <h2>Voici les instructions</h2>
                 <p>Instruction</p>
 
-                <p>lance le jeu en cliquant</p>
-                <form action="">
-                    <label for="devine ton nombre"></label>
-                    <button id="b-game">
-                        Lance le jeu
-                    </button>
+                <p>Pour jouer il faut écrire un nombre entre <strong>1</strong> et <strong>100</strong></p>
+                <form action="game">
+                    <label for="user-input"></label>
+                    <input type="text" id="user-input" placeholder="Saisie un nombre entre 1 et 100">
 
-                    <input type="text" placeholder="Saisie un nombre entre 1 et 100">
+                    <a href="index.html">rejouer</a>
 
-                    <butto id="b-game-valid"n>Verification</butto>
+
+                    <div class="resultat">
+                        <p class="text-resultat"></p>
+                    </div>
 
                 </form>
 
