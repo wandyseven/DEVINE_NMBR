@@ -31,30 +31,39 @@ body main .all .h1 {
 .container .content p strong {
   font-size: 18px;
 }
-.container .content form {
+.container .content div {
   display: flex;
   flex-direction: column;
   margin: 5px 10px;
 }
-.container .content form input {
+.container .content div input {
   height: 4rem;
-  width: 30rem;
+  width: 50vmax;
   border-radius: 20px;
   border: none;
   padding: 0 1rem;
   margin-bottom: 1rem;
 }
-.container .content form input::placeholder {
+.container .content div input::placeholder {
   padding-left: 2rem;
 }
-.container .content form a {
-  justify-content: center;
-  text-decoration: none;
-  text-align: center;
-}
 .container .content .text-resultat {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
+}
+
+#jouer {
+  padding: 10px 21px;
+  background-color: #471882;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#jouer:hover {
+  background-color: #63053b;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
