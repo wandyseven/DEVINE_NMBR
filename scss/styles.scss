@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to top, rgb(242, 202, 202), rgb(246, 218, 218));
+    background-repeat: repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    main {
+        display: flex;
+       justify-content: center;
+
+        .all {
+            margin: 5rem;
+            padding: 2rem;
+            border: 2px solid rgb(237, 143, 143);
+            border-radius: 30px;
+            background: linear-gradient(to bottom, rgb(237, 143, 143), rgb(238, 103, 103));
+
+            .h1 {
+                justify-content: center;
+                display: flex;
+                color: white;
+
+            }
+
+        }
+    }
+};
+
+.container {
+    .content {
+        .p-intructions{
+            width: 30rem;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+            strong {
+                font-size: 18px;
+            }
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 5px 10px;
+
+            input {
+                height: 4rem;
+                width: 50vmax;
+                border-radius: 20px;
+                border: none;
+                padding: 0 1rem;
+                margin-bottom: 1rem;
+            }
+            input::placeholder {
+                padding-left: 2rem;
+            }
+
+        }
+        .text-resultat {
+            font-size: 25px;
+            color: white ;
+
+        }
+
+    }
+
+};
+
+#jouer {
+    padding: 10px 21px;
+    background-color: #471882;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover {
+        background-color: #63053b;
+        font-size: 25px;
+    }
+}
+

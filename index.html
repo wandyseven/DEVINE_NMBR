@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" >
+    <title>Devine le nombre</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <div class="all">
+            <div class="h1">
+                <H1>Devine le nombre</H1>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h2>Voici les instructions</h2>
+                    <div class="p-intructions">
+                    <p>
+                        Bienvenue dans le jeu "<strong>Devine le Nombre</strong>" ! Voici les règles :<br>
+                        <ol>
+                            <li>Le jeu choisit un nombre aléatoire entre 1 et 100.</li>
+                            <li>Vous avez <strong>10 essais</strong> pour trouver ce nombre.</li>
+                            <li>Après chaque tentative, vous recevrez un indice : "C'est plus !" si le nombre est trop petit, ou "C'est moins !" si le nombre est trop grand.</li>
+                            <li>Si vous trouvez le bon nombre, vous gagnez ! Sinon, si vous dépassez la limite d'essais, vous perdez.</li>
+                        </ol>
+                        <br>
+                        <strong>Bonne chance !</strong>
+                      </p>
+                    </div>
+
+
+                    <p>Pour jouer il faut écrire un nombre entre <strong>1</strong> et <strong>100</strong></p>
+                    <div>
+                        <label for="user-input"></label>
+                        <input type="text" id="user-input" placeholder="Saisie un nombre entre 1 et 100">
+                        <button id="jouer">jouer</button>
+                        <div class="resultat">
+                            <p class="text-resultat"></p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+<script src="js/nombre-mystere.js"></script>
+</body>
+</html>
